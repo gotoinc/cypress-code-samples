@@ -1,0 +1,30 @@
+{
+	"name": "cypress-code-samples-gotoinc",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"startServer": "http-server -c-1 -o ./file.html",
+		"cy:open": "cypress open",
+		"cy:runHeadlessChrome": "cypress run --browser chrome",
+		"cy:runHeadedChrome": "cypress run --browser chrome --headed",
+		"cy:runHeadless": "cypress run",
+		"cy:runHeaded": "cypress run --headed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gotoinc/cypress-code-samples.git"
+	},
+	"author": "Gotoinc",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gotoinc/cypress-code-samples/issues"
+	},
+	"homepage": "https://github.com/gotoinc/cypress-code-samples#readme",
+	"devDependencies": {
+		"cypress": "^12.9.0"
+	},
+	"dependencies": {
+		"http-server": "^14.1.1",
+		"prettier": "^2.8.7"
+	}
+}
